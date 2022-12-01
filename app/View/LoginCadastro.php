@@ -62,9 +62,8 @@
               </div>
 
               <div class="actual-form">
-              <!-- id="field" maxlength="11" pattern="([0-9]{11}) -->
                 <div class="input-wrap">
-                  <input name="cpf_cientista"  type="text" class="input-field"  required />
+                  <input name="cpf_cientista"  type="text" class="input-field" id="field" maxlength="11" pattern="([0-9]{11})" required />
                   <label>CPF</label>
                 </div>
 
@@ -109,9 +108,9 @@
                 </div>
 
                 <div class="dividir">
-                  <!-- maxlength="11" pattern="([0-9]{11}) -->
+                  <!--  -->
                   <div class="input-wrap1">
-                    <input type="text" name="cpf_cientista" class="input-field" id="field1" "  required />
+                    <input type="text" name="cpf_cientista" class="input-field" id="field1" maxlength="11" pattern="([0-9]{11})"  required />
                     <label>CPF</label>
                   </div>
 
