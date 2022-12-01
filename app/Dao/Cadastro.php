@@ -55,25 +55,5 @@ require_once '../Conection/Conn.php';
             }
             return false;
             }
-
-            // public function CadastraCpf($cpf_cientista)
-            // {   
-                
-            //     $sql_id = $this->pdo->prepare(("SELECT id_cientista FROM  $this->tableCientista WHERE cpf_cientista = :b"));
-            //     $sql_id->bindValue(":b", $cpf_cientista);
-            //     $sql_id->execute();
-            //     $sql=$sql_id->fetch();
-                
-            //     session_start();
-            //     $_SESSION['CadastroArea']=$sql['id_cientista'];
-                
-            //     $sql = $this->pdo->prepare("INSERT INTO area_atuacao_cientista (fk_id_cientista) VALUES (:a)");
-            //     $sql->bindValue(":a", $_SESSION['CadastroArea']);
-            //     $sql->execute();
-            //     $sql =null;
-            //     $sql_id =null;
-
-                
-            // }
         }
 ?>
